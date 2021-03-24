@@ -39,10 +39,8 @@ function Header() {
         <h1>paweł</h1>
         <Typed
           className="typed-text-animation"
-          strings={["Self-taught", "Web Developer"]}
+          strings={["Self-taught Web Developer"]}
           typeSpeed={60}
-          backSpeed={50}
-          loop
         />
       </div>
     </div>
