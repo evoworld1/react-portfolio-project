@@ -7,10 +7,11 @@ function Header() {
   return (
     <div className="header-wrapper">
       <Particles
+        className="particles"
         params={{
           particles: {
             number: {
-              value: 50,
+              value: 60,
             },
             shape: {
               type: "circle",
@@ -21,6 +22,35 @@ function Header() {
             },
             size: {
               value: 3,
+            },
+          },
+          interactivity: {
+            events: {
+              onhover: {
+                enable: true,
+                mode: "repulse",
+              },
+            },
+          },
+        }}
+      />
+
+      <Particles
+        className="particlesMobile"
+        params={{
+          particles: {
+            number: {
+              value: 15,
+            },
+            shape: {
+              type: "circle",
+              stroke: {
+                width: 2,
+                color: "#e66f00",
+              },
+            },
+            size: {
+              value: 2,
             },
           },
           interactivity: {

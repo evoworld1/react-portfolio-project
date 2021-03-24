@@ -20,21 +20,23 @@
   flex-direction: column;
   justify-content: center;
   text-transform: uppercase;
-  padding-left: 10rem;
+  padding-left: 10vw;
 }
 
 .main-info h1 {
   font-weight: 900;
-  font-size: 10rem;
+  font-size: 10vw;
   z-index: 2;
 }
 .main-info p {
-  font-size: 5rem;
+  font-size: 7vw;
+  z-index: 2;
 }
 
 .typed-text-animation {
   color: var(--primary-white);
-  font-size: 3rem;
+  font-size: 3vw;
+  z-index: 2;
 }
 
 .tsparticles-canvas-el {
@@ -42,4 +44,14 @@
   height: 100vh;
   width: 100vw;
   z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .particles {
+    display: none;
+  }
+
+  .particlesMobile {
+    display: contents;
+  }
 }
