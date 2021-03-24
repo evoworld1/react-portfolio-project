@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+p,
+.typed-text-animation {
+  font-family: "Orbitron", sans-serif;
+}
