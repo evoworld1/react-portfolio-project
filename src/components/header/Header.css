@@ -1,0 +1,45 @@
+:root {
+  --primary-dark: #0f0f0fe7;
+  --primary-orange: #e66f00;
+  --primary-white: #ffffff;
+  --primary-gradient: linear-gradient(360deg, #000000, #000000f6);
+}
+
+.header-wrapper {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: var(--primary-gradient);
+  color: var(--primary-orange);
+}
+
+.main-info {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+  padding-left: 10rem;
+}
+
+.main-info h1 {
+  font-weight: 900;
+  font-size: 10rem;
+  z-index: 2;
+}
+.main-info p {
+  font-size: 5rem;
+}
+
+.typed-text-animation {
+  color: var(--primary-white);
+  font-size: 3rem;
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
