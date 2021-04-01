@@ -1,0 +1,53 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.portfolio-container {
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-container {
+  width: 90vw;
+  height: 60vh;
+  margin-top: auto;
+  padding-bottom: 200px;
+}
+
+.swiper-slide-prev span {
+  transition: color 1s;
+}
+
+.swiper-slide-prev img {
+  transition: width 1s;
+}
+
+.swiper-slide img {
+  width: 27vw;
+  height: auto;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, transparent, #0006);
+}
+
+.swiper-slide-active span {
+  transition: color 1s;
+  color: rgba(255, 255, 255, 0.801);
+}
+
+.swiper-slide-active img {
+  transition: width 1s;
+  width: 30vw;
+}
+
+.portfolio-h1 {
+  color: rgba(255, 255, 255, 0.801);
+  text-transform: uppercase;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
