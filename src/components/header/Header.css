@@ -1,12 +1,11 @@
 :root {
   --primary-dark: #0f0f0fe7;
   --primary-orange: #e66f00;
-  --primary-white: #ffffff;
+  --primary-white: rgba(255, 255, 255, 0.801);
   --primary-gradient: linear-gradient(360deg, #000000, #000000f6);
 }
 
 .header-wrapper {
-  position: absolute;
   height: 100vh;
   width: 100vw;
   background: var(--primary-gradient);

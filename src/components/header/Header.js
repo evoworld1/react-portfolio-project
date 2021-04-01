@@ -3,7 +3,7 @@ import "./Header.css";
 import Particles from "react-particles-js";
 import Typed from "react-typed";
 
-function Header() {
+const Header = () => {
   return (
     <div className="header-wrapper">
       <Particles
@@ -11,7 +11,7 @@ function Header() {
         params={{
           particles: {
             number: {
-              value: 60,
+              value: 40,
             },
             shape: {
               type: "circle",
@@ -75,6 +75,6 @@ function Header() {
       </div>
     </div>
   );
-}
+};
 
 export default Header;
