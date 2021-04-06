@@ -11,10 +11,18 @@ const App = () => {
   return (
     <div className="App">
       <Navbar />
-      <Header />
-      <About />
-      <Portfolio />
-      <Contact />
+      <div id="Header">
+        <Header />
+      </div>
+      <div id="About">
+        <About />
+      </div>
+      <div id="Portfolio">
+        <Portfolio />
+      </div>
+      <div id="Contact">
+        <Contact />
+      </div>
     </div>
   );
 };
