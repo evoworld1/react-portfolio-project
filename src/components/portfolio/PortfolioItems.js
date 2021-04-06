@@ -36,7 +36,7 @@ const PortfolioItems = () => {
       {PortfolioData.map((data) => (
         <SwiperSlide>
           <span>{data.title}</span>
-          <a href={data.link} target="_blank">
+          <a href={data.link} target="_blank" rel="noreferrer">
             <img src={data.imageSrc} />
           </a>
         </SwiperSlide>
