@@ -11,36 +11,7 @@ const Header = () => {
         params={{
           particles: {
             number: {
-              value: 40,
-            },
-            shape: {
-              type: "circle",
-              stroke: {
-                width: 3,
-                color: "#e66f00",
-              },
-            },
-            size: {
-              value: 3,
-            },
-          },
-          interactivity: {
-            events: {
-              onhover: {
-                enable: true,
-                mode: "repulse",
-              },
-            },
-          },
-        }}
-      />
-
-      <Particles
-        className="particlesMobile"
-        params={{
-          particles: {
-            number: {
-              value: 15,
+              value: 50,
             },
             shape: {
               type: "circle",
@@ -57,7 +28,12 @@ const Header = () => {
             events: {
               onhover: {
                 enable: true,
-                mode: "repulse",
+                mode: "grab",
+              },
+              onresize: {
+                enable: true,
+                density_auto: true,
+                density_area: 800,
               },
             },
           },

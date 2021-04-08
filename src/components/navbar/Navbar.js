@@ -22,13 +22,13 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="toggleNavbarOnMobile">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="Header">
+              <a className="nav-link active" aria-current="page" href="#header">
                 Home
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#About">
+              <a className="nav-link active" aria-current="page" href="#about">
                 about me
               </a>
             </li>
@@ -37,7 +37,7 @@ const Navbar = () => {
               <a
                 className="nav-link active"
                 aria-current="page"
-                href="#Portfolio"
+                href="#portfolio"
               >
                 projects
               </a>
@@ -47,7 +47,7 @@ const Navbar = () => {
               <a
                 className="nav-link active"
                 aria-current="page"
-                href="#Contact"
+                href="#contact"
               >
                 contact
               </a>

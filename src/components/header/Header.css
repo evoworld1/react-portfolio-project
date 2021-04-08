@@ -49,7 +49,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
   .particles {
     display: none;
   }
@@ -57,4 +57,4 @@
   .particlesMobile {
     display: contents;
   }
-}
+}*/

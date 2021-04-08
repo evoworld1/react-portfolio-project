@@ -8,14 +8,15 @@ SwiperCore.use([EffectCoverflow, Autoplay, Navigation]);
 
 const swiperSettings = {
   effect: "coverflow",
+  direction: "vertical",
   speed: 1000,
   grabCursor: true,
   centeredSlides: true,
-  slidesPerView: 3,
+  slidesPerView: 1,
   coverflowEffect: {
-    rotate: 10,
+    rotate: 0,
     stretch: 0,
-    depth: 400,
+    depth: 0,
     modifier: 1,
     slideShadows: true,
   },
@@ -28,6 +29,17 @@ const swiperSettings = {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  breakpoints: {
+    800: {
+      slidesPerView: 3,
+      coverflowEffect: {
+        rotate: 10,
+        depth: 300,
+      },
+      direction: "horizontal",
+      centeredSlides: true,
+    },
+  },
 };
 
 const PortfolioItems = () => {
@@ -35,10 +47,12 @@ const PortfolioItems = () => {
     <Swiper {...swiperSettings}>
       {PortfolioData.map((data) => (
         <SwiperSlide>
-          <span>{data.title}</span>
-          <a href={data.link} target="_blank" rel="noreferrer">
-            <img src={data.imageSrc} />
-          </a>
+          <div className="swiper-image">
+            <span>{data.title}</span>
+            <a href={data.link} target="_blank" rel="noreferrer">
+              <img src={data.imageSrc} />
+            </a>
+          </div>
         </SwiperSlide>
       ))}
       ;

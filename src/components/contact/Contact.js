@@ -4,6 +4,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="contact-container">
+      <p>Feel free to contact me using form below</p>
       <form action="https://formsubmit.co/evoworld1@gmail.com" method="POST">
         <div className="form-group">
           <label for="inputEmailAdress">Email address</label>
