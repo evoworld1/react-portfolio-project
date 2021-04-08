@@ -9,6 +9,16 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.section {
+  scroll-snap-align: center;
+}
+
 h1,
 p,
 .typed-text-animation,

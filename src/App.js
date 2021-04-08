@@ -9,20 +9,20 @@ import Contact from "./components/contact/Contact";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app-container">
       <Navbar />
-      <div id="Header">
+      <section id="header">
         <Header />
-      </div>
-      <div id="About">
+      </section>
+      <section id="about">
         <About />
-      </div>
-      <div id="Portfolio">
+      </section>
+      <section id="portfolio">
         <Portfolio />
-      </div>
-      <div id="Contact">
+      </section>
+      <section id="contact">
         <Contact />
-      </div>
+      </section>
     </div>
   );
 };
